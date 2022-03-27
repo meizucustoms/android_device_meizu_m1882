@@ -7,6 +7,9 @@ DEVICE_PATH := device/meizu/m1882
 # Assertion
 TARGET_OTA_ASSERT_DEVICE := m1882,16th
 
+# Kernel
+TARGET_KERNEL_CONFIG := ../m1882_defconfig
+
 # Kernel Modules
 BOARD_VENDOR_KERNEL_MODULES := $(wildcard $(DEVICE_PATH)/kernel/lkm/*.ko)
 
