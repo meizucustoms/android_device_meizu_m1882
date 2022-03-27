@@ -1,8 +1,8 @@
 # Common BoardConfig
--include device/meizu/sdm845/BoardConfigSDM845.mk
+-include device/meizu/sdm845-common/BoardConfigSDM845.mk
 
 # Path
-DEVICE_PATH := device/meizu/sdm845/m1882
+DEVICE_PATH := device/meizu/m1882
 
 # Assertion
 TARGET_OTA_ASSERT_DEVICE := m1882,16th
