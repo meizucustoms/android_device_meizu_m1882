@@ -10,8 +10,5 @@ TARGET_OTA_ASSERT_DEVICE := m1882,16th
 # Kernel
 TARGET_KERNEL_CONFIG := ../m1882_defconfig
 
-# Kernel Modules
-BOARD_VENDOR_KERNEL_MODULES := $(wildcard $(DEVICE_PATH)/kernel/lkm/*.ko)
-
 # Proprietary BoardConfig
 -include vendor/meizu/m1882/BoardConfigVendor.mk
